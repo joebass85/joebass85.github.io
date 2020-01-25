@@ -2,5 +2,6 @@ p {color:red; text-align:center}
 h1 {color:red; text-align:center}
 body {background-color:black}
 a {padding:10px}
-dt {color:red}
-dd {color:red}
+h2 {color:red}
+dt {color:red;font-size: 24px}
+dd {color:red;font-size: 18px}
