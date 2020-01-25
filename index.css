@@ -3,5 +3,5 @@ h1 {color:red; text-align:center}
 body {background-color:black}
 a {padding:10px}
 h2 {color:red}
-dt {color:red;font-size: 24px}
+dt {color:red;font-size: 24px;text-decoration: underline}
 dd {color:red;font-size: 18px}
