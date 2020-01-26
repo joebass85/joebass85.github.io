@@ -6,5 +6,5 @@ h2 {color:red}
 dt {color:red;font-size: 24px;text-decoration: underline}
 dd {color:red;font-size: 18px}
 .grid-item {border:green}
-.item-1 {grid-area: 2/1/span 2/span 2}
+.item-1 {grid-area: 2/1/span 2/span 2;padding: 150px}
 .item-2 {grid-area: 2/2/span 2/span 2}
