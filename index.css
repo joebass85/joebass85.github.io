@@ -11,7 +11,6 @@ img {display: block;margin-left: auto;margin-right: auto}
 div.pglinks {background-color: black; position: -webkit-sticky; position: sticky; top:0; padding-top: 5px; padding-bottom: 5px; text-align: center}
 a.composer {color:red;text-decoration: underline;font-size: 24px}
 /* specific to performance.html */
-dt {color:red;font-size: 24px;text-decoration: underline}
 dd {color:red;font-size: 18px;padding-top: 5px;padding-bottom: 5px}
 .flexbox-container {display: flex;justify-content: space-between}
 .item-1 {padding-left: 150px}
