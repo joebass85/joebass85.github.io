@@ -5,4 +5,5 @@ a {padding:10px}
 h2 {color:red}
 dt {color:red;font-size: 24px;text-decoration: underline}
 dd {color:red;font-size: 18px}
-.grid-container {grid-auto-columns: 2fr;display: grid;border: green}
+.grid-container {grid-auto-columns: 2fr;display: grid}
+.grid-item {border:green}
