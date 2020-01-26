@@ -5,6 +5,6 @@ a {padding:10px}
 h2 {color:red}
 dt {color:red;font-size: 24px;text-decoration: underline}
 dd {color:red;font-size: 18px}
-.grid-container {grid-auto-columns: 2fr}
+.grid-container {grid-auto-columns: 200px}
 .item-1 {padding-left: 150px}
 /*.item-2 {grid-area: 2/2/3/3}*/
