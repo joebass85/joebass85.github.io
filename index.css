@@ -9,4 +9,4 @@ dd {color:red;font-size: 18px}
 .item-1 {padding-left: 150px}
 .item-2 {padding-right: 250px}
 #video-link {text-align: center}
-img {padding: 9px}
+img {display: block;margin-left: auto;margin-right: auto}
