@@ -1,8 +1,11 @@
+/* General CSS for all pages */
 p {color:red; text-align:center}
 h1 {color:red; text-align:center}
 body {background-color:black}
 a {padding:10px}
 h2 {color:red}
+img {display: block;margin-left: auto;margin-right: auto}
+/* specific to performance.html */
 dt {color:red;font-size: 24px;text-decoration: underline}
 dd {color:red;font-size: 18px;padding-top: 5px;padding-bottom: 5px}
 .flexbox-container {display: flex;justify-content: space-between}
@@ -10,4 +13,3 @@ dd {color:red;font-size: 18px;padding-top: 5px;padding-bottom: 5px}
 .item-2 {padding-right: 250px}
 #video-link {text-align: center}
 #link {padding:10px;font-size: 20px}
-img {display: block;margin-left: auto;margin-right: auto}
