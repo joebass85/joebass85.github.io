@@ -1,7 +1,8 @@
 p {color:red; text-align:center}
 h1 {color:red; text-align:center}
 body {background-color:black}
-a {padding:10px;font-size: 20px}
+a {padding:10px}
+#link {padding:10px;font-size: 20px}
 h2 {color:red}
 dt {color:red;font-size: 24px;text-decoration: underline}
 dd {color:red;font-size: 18px}
@@ -10,3 +11,4 @@ dd {color:red;font-size: 18px}
 .item-2 {padding-right: 250px}
 #video-link {text-align: center}
 img {display: block;margin-left: auto;margin-right: auto}
+.description {text-align: center}
