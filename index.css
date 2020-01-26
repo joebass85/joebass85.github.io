@@ -5,7 +5,7 @@ a {padding:10px}
 #link {padding:10px;font-size: 20px}
 h2 {color:red}
 dt {color:red;font-size: 24px;text-decoration: underline}
-dd {color:red;font-size: 18px}
+dd {color:red;font-size: 18px;padding-top: 5px;padding-bottom: 5px}
 .flexbox-container {display: flex;justify-content: space-between}
 .item-1 {padding-left: 150px}
 .item-2 {padding-right: 250px}
