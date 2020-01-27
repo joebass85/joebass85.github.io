@@ -3,7 +3,7 @@ p {color:red; text-align:center}
 h1 {color:red; text-align:center}
 body {background-color:black}
 a {padding:10px;font-size: 20px;text-decoration: none}
-a:link {color:yellow}
+a:link {color:#ffdd00}
 a:visited {color:white}
 a:hover {color:red}
 h2 {color:red}
@@ -11,7 +11,7 @@ img {display: block;margin-left: auto;margin-right: auto}
 div.pglinks {background-color: black; position: -webkit-sticky; position: sticky; top:0; padding-top: 5px; padding-bottom: 5px; text-align: center}
 a.composer {color:red;text-decoration: underline;font-size: 24px}
 /* specific to performance.html */
-dd {color:red;font-size: 18px;padding-top: 5px;padding-bottom: 5px}
+dd {color:#ffdd00;font-size: 18px;padding-top: 5px;padding-bottom: 5px}
 .flexbox-container {display: flex;justify-content: space-between}
 .item-1 {padding-left: 150px}
 .item-2 {padding-right: 250px}
