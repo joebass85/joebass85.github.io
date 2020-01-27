@@ -10,6 +10,8 @@ h2 {color:red}
 img {display: block;margin-left: auto;margin-right: auto}
 div.pglinks {background-color: black; position: -webkit-sticky; position: sticky; top:0; padding-top: 5px; padding-bottom: 5px; text-align: center}
 a.composer {color:red;text-decoration: underline;font-size: 24px}
+/* specific to index.html (home page) */
+#name {padding-left: 70px}
 /* specific to performance.html */
 dd {color:#ffdd00;font-size: 18px;padding-top: 5px;padding-bottom: 5px}
 .flexbox-container {display: flex;justify-content: space-between}
