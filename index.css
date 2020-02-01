@@ -6,14 +6,14 @@ a {padding:10px;font-size: 20px;text-decoration: none}
 a:link {color:#ffdd00}
 a:visited {color:#ffffff}
 a:hover {color:#ff0000}
-h2 {color:#ff0000;padding-left: 80px}
+h2 {color:#ff0000;text-align: center}
 img {display: block;margin-left: auto;margin-right: auto}
 
 /* specific to index.html (home page) */
 #name {padding-left: 95px}
 
 /* specific to performance.html */
-dd {color:#ffdd00;font-size: 18px;padding-top: 5px;padding-bottom: 5px;padding-left: 120px}
+dd {color:#ffdd00;font-size: 18px;padding-top: 5px;padding-bottom: 5px;padding-left: 140px}
 #video-link {text-align: center}
 #link {text-decoration: underline; padding:10px;font-size: 20px}
-a.composer {color:#ff0000;text-decoration: underline;font-size: 24px;padding-left: 100px}
+a.composer {color:#ff0000;text-decoration: underline;font-size: 24px;padding-left: 120px}
