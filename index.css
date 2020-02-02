@@ -2,14 +2,13 @@
 p {color:red; text-align:center}
 h1 {color:red; text-align:center;padding-top: 15px}
 body {background-color:#000000}
-a {padding:10px;font-size: 20px;text-decoration: none}
 a:link {color:#ffdd00}
 a:visited {color:#ffffff}
 a:hover {color:#ff0000}
 h2 {color:#ff0000;text-align: center}
 h4 {color:#ff0000;text-align: center}
 img {display: block;margin-left: auto;margin-right: auto}
-a:link#comm {color: red;font-size: 12px}
+a:link#comm {color: red;font-size: 16px}
 
 /* specific to index.html (home page) */
 #name {padding-left: 95px}
