@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-    background-color: #010101
+    background-color: #222222;
 }
 
 a:link {
@@ -82,8 +82,7 @@ a.composer {
 }
 
 a#comm:hover {
-    text-decoration:
-        none;
+    text-decoration: none;
 }
 
 a.composer:hover {
