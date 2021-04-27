@@ -1,10 +1,10 @@
 p {
-    color: #00a0ff;
+    color: #00d0ff;
     text-align: center
 }
 
 h1 {
-    color: #00a0ff;
+    color: #00d0ff;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px
@@ -23,16 +23,16 @@ a:visited {
 }
 
 a:hover {
-    color: #00a0ff
+    color: #00d0ff
 }
 
 h2 {
-    color: #00a0ff;
+    color: #00d0ff;
     text-align: center
 }
 
 h4 {
-    color: #00a0ff;
+    color: #00d0ff;
     text-align: center
 }
 
@@ -43,7 +43,7 @@ img {
 }
 
 a#comm {
-    color: #00a0ff;
+    color: #00d0ff;
     font-size: 16px;
     text-align: center;
 }
@@ -75,7 +75,7 @@ dt {
 }
 
 a.composer {
-    color: #00a0ff;
+    color: #00d0ff;
     text-decoration: underline;
     font-size: 24px;
     text-align: center
@@ -94,19 +94,19 @@ a.composer:hover {
 }
 
 #phil {
-    color: #00a0ff;
+    color: #00d0ff;
     padding: 0px 50px;
     text-align: left;
     line-height: 2.0
 }
 
 #phil-title {
-    color: #00a0ff;
+    color: #00d0ff;
     text-align: center;
 }
 
 h5 {
-    color: #00a0ff;
+    color: #00d0ff;
     text-align: center;
 }
 
