@@ -64,9 +64,14 @@ a.composer:hover {color: greenyellow}
     line-height: 2.0
 }
 
-p,h2,h4,h5,h6,#phil-title {
+p,h2,h4,h5,#phil-title {
     color: #00d0ff;
     text-align: center;
+}
+
+h6 {
+    color:#ff00ff;
+    text-align:center
 }
 
 #description {padding: 0px 50px}
