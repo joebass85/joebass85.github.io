@@ -1,9 +1,3 @@
-/*
-p {
-    color: #00d0ff;
-    text-align: center
-}
-*/
 h1 {
     color: #00d0ff;
     text-align: center;
@@ -11,32 +5,14 @@ h1 {
     padding-bottom: 15px
 }
 
-body {
-    background-color: #333330;
-}
+body {background-color: #333330;}
 
-a:link {
-    color: #ffdd00
-}
+a:link {color: #ffdd00}
 
-a:visited {
-    color: #ffffff
-}
+a:visited {color: #ffffff}
 
-a:hover {
-    color: #00d0ff
-}
-/*
-h2 {
-    color: #00d0ff;
-    text-align: center
-}
+a:hover {color: #00d0ff}
 
-h4 {
-    color: #00d0ff;
-    text-align: center
-}
-*/
 img {
     display: block;
     margin-left: auto;
@@ -62,18 +38,12 @@ dd {
     text-align: center
 }
 
-#video-link {
-    text-align: center
-}
+#video-link dt #comm {text-align: center}
 
 #link {
     text-decoration: underline;
     padding: 10px;
     font-size: 20px
-}
-
-dt {
-    text-align: center
 }
 
 a.composer {
@@ -83,17 +53,9 @@ a.composer {
     text-align: center
 }
 
-a#comm:hover {
-    text-decoration: none;
-}
+a#comm:hover {text-decoration: none;}
 
-a.composer:hover {
-    color: greenyellow
-}
-
-#comm {
-    text-align: center
-}
+a.composer:hover {color: greenyellow}
 
 #phil {
     color: #00d0ff;
@@ -101,22 +63,12 @@ a.composer:hover {
     text-align: left;
     line-height: 2.0
 }
-/*
-#phil-title {
-    color: #00d0ff;
-    text-align: center;
-}
-*/
+
 p h2 h4 h5 h6 #phil-title {
     color: #00d0ff;
     text-align: center;
 }
-/*
-h6 {
-    color: #ffdd00;
-    text-align: center;
-}
-*/
+
 #description {
     padding: 0px 50px
 }
