@@ -38,7 +38,7 @@ dd {
     text-align: center
 }
 
-#video-link dt #comm {text-align: center}
+#video-link,dt,#comm {text-align: center}
 
 #link {
     text-decoration: underline;
@@ -64,7 +64,7 @@ a.composer:hover {color: greenyellow}
     line-height: 2.0
 }
 
-p h2 h4 h5 h6 #phil-title {
+p,h2,h4,h5,h6,#phil-title {
     color: #00d0ff;
     text-align: center;
 }
