@@ -77,4 +77,8 @@ h6 {
 
 #description {padding: 0px 50px}
 
-.nav-link {font-size:24px;}
+.nav-link {
+    font-size:24px;
+    border: thin solid #b0b0b0;
+
+}
