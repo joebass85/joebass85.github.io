@@ -41,15 +41,17 @@
 	<h1>Contact Joe Diamond</h1>
     <form method="post" action="/contact/">
 		<div id="bod">
-			<label for='name'><i><b>Name</b></i></label>
+			<label>* = required field</label>
+			<br>
+			<label for='name'><i><b>Name*</b></i></label>
 			<br>
 			<input type="text" name="name" placeholder="Name" required size="35" autocomplete="on" autofocus>
 			<br><br>
-			<label for='email'><i><b>Email</b></i></label>
+			<label for='email'><i><b>Email*</b></i></label>
 			<br>
 			<input type="email" name="email" placeholder="Email" required size="35" autocomplete="on">
 			<br><br>
-			<label for='message'><i><b>Message</b></i></label>
+			<label for='message'><i><b>Message*</b></i></label>
 			<br>
 			<textarea name="msg" rows="8" cols="40" placeholder="Your message here..." required></textarea>
 			<br><br>
