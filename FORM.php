@@ -17,6 +17,9 @@
 		text-align:center;
 		margin-top:0px;
 	}
+	div#bod {
+		text-align:center;
+	}
 </style>
 
 <body>
@@ -37,7 +40,7 @@
 	<br>
 	<h1>Contact Joe Diamond</h1>
     <form method="post" action="/contact/">
-		<center>
+		<div id="bod">
 			<label for='name'><i><b>Name</b></i></label>
 			<br>
 			<input type="text" name="name" placeholder="Name" required size="35" autocomplete="on" autofocus>
@@ -51,7 +54,7 @@
 			<textarea name="msg" rows="8" cols="40" placeholder="Your message here..." required></textarea>
 			<br><br>
 			<input type='submit' value='Submit'>
-		</center>
+		</div>
     </form>
 <p id="comm">Questions and comments can be directed to <a href="mailto:jdiamond1721@gmail.com"><em>jdiamond1721@gmail.com</em></a></p>
 <p id="comm">This site is powered by <a href="http://github.com" target="_blank">Github</a></p>
