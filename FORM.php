@@ -40,11 +40,11 @@
 		<center>
 			<label for='name'><i><b>Name</b></i></label>
 			<br>
-			<input type="text" name="name" placeholder="Name" required>
+			<input type="text" name="name" placeholder="Name" required size="35" autocomplete="on" autofocus>
 			<br><br>
 			<label for='email'><i><b>Email</b></i></label>
 			<br>
-			<input type="email" name="email" placeholder="Email" required>
+			<input type="email" name="email" placeholder="Email" required size="35" autocomplete="on">
 			<br><br>
 			<label for='message'><i><b>Message</b></i></label>
 			<br>
