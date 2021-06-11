@@ -1,5 +1,5 @@
 <html>
-
+<meta charset="UTF-8">
 <title>Contact Joe Diamond</title>
 <link rel="stylesheet" href="/styles/index.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
