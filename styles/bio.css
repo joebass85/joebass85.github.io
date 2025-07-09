@@ -1,0 +1,82 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 0;
+    margin: 0;
+}
+.container > div {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.item1 {
+    grid-row: 1 / span 12;
+    background-color: #212121;
+}
+
+#navbar1 {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 3em;
+    position: static;
+}
+
+li a:hover,
+#active {
+    color: orange;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.item2,
+body {
+    background-color: black;
+}
+
+.item3,
+.item4 {
+    background-color: orange;
+}
+
+.bio {
+    color: black;
+    text-align: justify;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    padding-bottom: 1%;
+}
+
+#ian {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: auto;
+    padding-top: 3%;
+}
+
+h1,
+h4,
+h4 > a {
+    color: #fcedc8;
+}
+
+.footer > a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.footer > a > img {
+    width: 35px;
+}
+
+.footer > a > img:hover {
+    zoom: 150%;
+}

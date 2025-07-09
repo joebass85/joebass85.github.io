@@ -1,0 +1,65 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    padding: 0;
+    margin: 0;
+}
+.container > div {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.item1 {
+    grid-row: 1 / span 12;
+    background-color: #212121;
+}
+
+#navbar1 {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 2em;
+    position: static;
+}
+
+li a:hover,
+#active {
+    color: orange;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+ul > li {
+    margin-top: 1em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.item2,
+body {
+    background-color: black;
+}
+
+h1,
+h4,
+h4 > a {
+    color: #fcedc8;
+}
+
+.footer > a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.footer > a > img {
+    width: 35px;
+}
+
+.footer > a > img:hover {
+    zoom: 150%;
+}
