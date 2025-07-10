@@ -1,3 +1,4 @@
+/* Setting up the grid */
 .container {
     display: grid;
     grid-template-columns: 1fr 6fr;
@@ -9,6 +10,7 @@
     font-size: 1.25em;
 }
 
+/* Menu Bar */
 .item1 {
     grid-row: 1 / span 12;
     background-color: #212121;
@@ -35,36 +37,35 @@ ul > li {
     margin-top: 1em;
 }
 
+/* General <body> css */
 body {
     margin: 0;
     padding: 0;
 }
 
+/* Header */
 .item2,
 body {
     background-color: #150f0a;
 }
 
+/* Main Content Area */
 .item3 {
     background-color: #7891ae;
 }
 
 h1,
+.item2 > h2,
 h4,
 h4 > a {
     color: #fcedc8;
 }
 
-h3 {
-    color: #150f0a;
-    display: inline;
-    margin: 0.25em 5.3em;
-}
-
-h2 > a {
+.item3 > h2 > a {
     color: #150f0a;
 }
 
+/* Footer & Social Links */
 .footer > a {
     text-decoration: none;
     padding-left: 10px;

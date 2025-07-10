@@ -5,7 +5,7 @@ function onPageLoaded() {
     console.log("page loaded");
 
     if (confirm("Help Us Reach Our Goal By Contributing Today!\n\nPlease Consider Donating!")) {
-        window.open("/contribute/");
+        window.open("/contribute/index.html");
         console.log("confirmed!");
     }
 }

@@ -1,3 +1,4 @@
+/* Setting up the grid */
 .container {
     display: grid;
     grid-template-columns: 1fr 6fr;
@@ -9,6 +10,7 @@
     font-size: 1.25em;
 }
 
+/* Menu Bar */
 .item1 {
     grid-row: 1 / span 12;
     background-color: #212121;
@@ -35,16 +37,19 @@ ul > li {
     margin-top: 1em;
 }
 
+/* General <body> css */
 body {
     margin: 0;
     padding: 0;
 }
 
+/* Main Content Area */
 .item2,
 body {
     background-color: #150f0a;
 }
 
+/* Sets background for main content area */
 .item3 {
     background-image: url(/images/About%20background.jpg);
     background-size: cover;
@@ -65,6 +70,7 @@ h4 > a {
     padding-left: 10px;
 }
 
+/* Images */
 .bio {
     display: flex;
     height: 352px;
@@ -74,14 +80,7 @@ h4 > a {
     border: 0.5px solid #fcedc8;
 }
 
-.footer > a > img {
-    width: 35px;
-}
-
-.footer > a > img:hover {
-    zoom: 150%;
-}
-
+/* Buttons */
 .button {
     background-color: transparent;
     border: 2px solid #fcedc8;
@@ -101,4 +100,13 @@ h4 > a {
     color: #150f0a;
     background-color: #fcedc8;
     border-radius: 25px;
+}
+
+/* Footer & Social Links */
+.footer > a > img {
+    width: 35px;
+}
+
+.footer > a > img:hover {
+    zoom: 150%;
 }
