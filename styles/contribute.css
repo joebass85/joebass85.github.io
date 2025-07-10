@@ -23,7 +23,7 @@
 
 li a:hover,
 #active {
-    color: orange;
+    color: #d27845;
 }
 
 ul > li > a {
@@ -42,11 +42,11 @@ body {
 
 .item2,
 body {
-    background-color: black;
+    background-color: #150f0a;
 }
 
 .item3 {
-    background-color: #7d90ab;
+    background-color: #7891ae;
 }
 
 h1,
@@ -56,13 +56,13 @@ h4 > a {
 }
 
 h3 {
-    color: black;
+    color: #150f0a;
     display: inline;
     margin: 0.25em 5.3em;
 }
 
 h2 > a {
-    color: black;
+    color: #150f0a;
 }
 
 .footer > a {
