@@ -11,18 +11,16 @@
     <body onload="onPageLoaded()">
         <div class="container">
             <div class="item1">
-                <ul class="navbar1">
-                    <li id="button1">
-                        <a href="javascript:void(0)" onclick="openNav()">☰</a>
-                    </li>
-                    <li id="menuPic">
-                        <a href="/index.html"><img src="/images/favicon.ico" width="150px" /></a>
-                    </li>
-                    <li class="hide"><a class="active" href="#">Home</a></li>
-                    <li class="hide"><a href="/about/index.html">Meet The Team</a></li>
-                    <li class="hide"><a href="/newsletters/index.html">Newsletters</a></li>
-                    <li class="hide"><a href="/contribute/index.html">Contribute</a></li>
-                </ul>
+                <div>
+                    <a id="button1" href="javascript:(0)" onclick="myFunction()">☰</a>
+                    <div class="navbar1" id="hide">
+                        <a id="menuPic" href="/index.html"><img src="/images/favicon.ico" width="150px" /></a>
+                        <a class="active" href="#">Home</a>
+                        <a href="/about/index.html">Meet The Team</a>
+                        <a href="/newsletters/index.html">Newsletters</a>
+                        <a id="bottomSpacer" href="/contribute/index.html">Contribute</a>
+                    </div>
+                </div>
             </div>
             <div class="item2">
                 <h1>Hiking The Tide - A Short Film Directed By Ian McClure</h1>

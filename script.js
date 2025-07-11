@@ -10,7 +10,13 @@ function onPageLoaded() {
     }
 }
 
-function openNav() {
-    document.getElementsByClassName("hide").style.display = "block";
-    //document.getElementsByClassName("example")
+function myFunction() {
+    console.log("start actions");
+    var x = document.getElementById("hide");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    console.log("actions completed");
 }

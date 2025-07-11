@@ -22,19 +22,19 @@
     padding-left: 1em;
 }
 
-li a:hover,
-.active {
+.navbar1 > a:hover {
     color: #d27845;
 }
 
-ul > li > a {
+.navbar1 > a {
+    display: block;
+    margin-top: 1em;
     text-decoration: none;
     color: white;
 }
 
-/* Spaces out menu items */
-ul > li {
-    margin-top: 1em;
+.navbar1 > .active {
+    color: #d27845;
 }
 
 /* General <body> css */
@@ -107,17 +107,34 @@ h4 > a {
         display: none;
     }
 
-    ul > li {
-        margin-top: 0.4em;
+    .navbar1 > a {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
     }
 
     .hide {
         display: none
     }
+
+    #bottomSpacer {
+        margin-bottom: 0.4em;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    #button1 {
+        padding-top: 1em;
+        color: white;
+        text-decoration: none;
+        font-size: 1.25em;
+    }
 }
 
-@media only screen and (min-width:701px) {
+@media only screen and (min-width: 701px) {
     #button1 {
         display: none
     }
+
 }
