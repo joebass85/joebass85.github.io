@@ -16,7 +16,7 @@
     background-color: #212121;
 }
 
-#navbar1 {
+.navbar1 {
     list-style-type: none;
     text-align: left;
     padding-left: 1em;
@@ -84,7 +84,7 @@ h4 > a {
 
     iframe {
         max-width: 90%;
-	height: auto;
+        height: auto;
     }
 
     .footer > a > img:hover {
@@ -108,6 +108,12 @@ h4 > a {
     }
 
     ul > li {
-	margin-top: 0.4em;
-    } 
+        margin-top: 0.4em;
+    }
+}
+
+@media only screen and (min-width:701px) {
+    #button1 {
+        display: none
+    }
 }
