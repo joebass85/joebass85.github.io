@@ -9,3 +9,8 @@ function onPageLoaded() {
         console.log("confirmed!");
     }
 }
+
+function openNav() {
+    document.getElementsByClassName("hide").style.display = "block";
+    //document.getElementsByClassName("example")
+}
