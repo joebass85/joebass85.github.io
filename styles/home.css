@@ -1,7 +1,7 @@
 /* Setting up the grid */
 .container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 0.75fr 6fr;
     padding: 0;
     margin: 0;
 }
@@ -19,8 +19,7 @@
 #navbar1 {
     list-style-type: none;
     text-align: left;
-    padding-left: 2em;
-    /*position: static;*/
+    padding-left: 1em;
 }
 
 li a:hover,
