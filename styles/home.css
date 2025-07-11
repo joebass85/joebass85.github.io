@@ -71,18 +71,39 @@ h4 > a {
 }
 
 @media only screen and (max-width: 700px) {
-    body {
-        background-color: darkred;
-    }
-
     .item1 {
         grid-area: 1 / span 6;
     }
+
     .item2 {
         grid-area: 2 / span 6;
     }
 
+    .footer {
+        grid-area: 3 / span 6;
+    }
+
     iframe {
-        max-width: 100%;
+        max-width: 90%;
+    }
+
+    .footer > a > img:hover {
+        zoom: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    h4 {
+        font-size: 0.9em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    #menuPic {
+        display: none;
     }
 }
