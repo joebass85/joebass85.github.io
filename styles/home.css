@@ -107,4 +107,8 @@ h4 > a {
     #menuPic {
         display: none;
     }
+
+    ul > li {
+	margin-top: 0.5em;
+    } 
 }
