@@ -22,7 +22,7 @@
 }
 
 li a:hover,
-#active {
+.active {
     color: #d27845;
 }
 
