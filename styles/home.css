@@ -85,6 +85,7 @@ h4 > a {
 
     iframe {
         max-width: 90%;
+	height: auto;
     }
 
     .footer > a > img:hover {
