@@ -168,4 +168,8 @@ h4 > a {
     body {
         background-color: blue;
     }
+
+    iframe {
+        overflow: hidden;
+    }
 }
