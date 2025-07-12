@@ -96,6 +96,7 @@ h2 {
     margin-top: 1.91em;
     height: 438px;
     width: 300px;
+    border-radius: 5px;
 }
 
 .faceCard > a > img:hover {
