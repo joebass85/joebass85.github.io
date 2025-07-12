@@ -2,54 +2,29 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Contribute</title>
+        <title>Home</title>
         <link rel="icon" href="/images/favicon.ico" />
         <link rel="stylesheet" href="/styles/contribute.css" />
-        <!--<script src="/script.js"></script>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="script.js"></script>
     </head>
-    <!--<body onload="onPageLoaded()">-->
-    <body>
+    <body onload="onPageLoaded()">
         <div class="container">
             <div class="item1">
-                <ul id="navbar1">
-                    <li>
-                        <a href="/index.html"><img src="/images/favicon.ico" width="150px" /></a>
-                    </li>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/about/index.html">Meet The Team</a></li>
-                    <li><a href="/newsletters/index.html">Newsletters</a></li>
-                    <li><a class="active" href="#">Contribute</a></li>
-                </ul>
+                <div>
+                    <a id="button1" href="javascript:(0)" onclick="navControl()">☰</a>
+                    <div class="navbar1" id="hide">
+                        <a id="menuPic" href="/index.html"><img src="/images/favicon.ico" width="150px" /></a>
+                        <a href="/index.html">Home</a>
+                        <a href="/about/index.html">Meet The Team</a>
+                        <a href="/newsletters/index.html">Newsletters</a>
+                        <a class="active" id="bottomSpacer" href="#">Contribute</a>
+                    </div>
+                </div>
             </div>
             <div class="item2">
-                <h1>Contribute To Hiking The Tide!</h1>
-                <h2>
-                    <i> Help Us Reach Our Goal! </i>
-                </h2>
+                <h1>This is the Contribute.</h1>
             </div>
-
-            <div class="item3">
-                <a href="https://venmo.com/u/Ian-McClure-21" target="_blank">
-                    <img src="/images/qr/VenmoQR.png" width="250px" style="margin-right: 10%" />
-                </a>
-                <a href="https://www.paypal.com/paypalme/hikingthetide" target="_blank">
-                    <img src="/images/qr/PaypalQR.png" width="250px" style="margin-left: 10%; margin-top: 4%" />
-                </a>
-                <br />
-                <h2>
-                    Venmo -
-                    <a href="https://venmo.com/u/Ian-McClure-21" target="_blank">https://venmo.com/u/Ian-McClure-21</a>
-                </h2>
-                <h2>
-                    Paypal -
-                    <a href="https://www.paypal.com/paypalme/hikingthetide" target="_blank"
-                        >https://www.paypal.com/paypalme/hikingthetide</a
-                    >
-                </h2>
-                <h2>Checks Can Be Made Out To: Hiking The Tide LLC</h2>
-                <h2>Please Mail All Checks To:<br />1265 Oakridge Drive, Unit A<br />Glendale, CA 91205</h2>
-            </div>
-            <br />
             <div class="footer">
                 <h4>
                     © Hiking The Tide LLC - All Rights Reserved; International Copyrights Secured //
@@ -68,7 +43,6 @@
                     <img src="/images/logos/Linktree-colored.png" />
                 </a>
             </div>
-            <div class="item5"><p></p></div>
         </div>
     </body>
 </html>

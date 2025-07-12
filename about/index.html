@@ -2,64 +2,28 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Meet The Team</title>
+        <title>Home</title>
         <link rel="icon" href="/images/favicon.ico" />
         <link rel="stylesheet" href="/styles/about.css" />
-        <!--<script src="/script.js"></script>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="script.js"></script>
     </head>
-    <!--<body onload="onPageLoaded()">-->
-    <body>
+    <body onload="onPageLoaded()">
         <div class="container">
             <div class="item1">
-                <ul id="navbar1">
-                    <li>
-                        <a href="/index.html"><img src="/images/favicon.ico" width="150px" /></a>
-                    </li>
-                    <li><a href="/index.html">Home</a></li>
-                   <li><a class="active" href="/about/index.html">Meet The Team</a></li>
-                    <li><a href="/newsletters/index.html">Newsletters</a></li>
-                    <li><a href="/contribute/index.html">Contribute</a></li>
-                </ul>
+                <div>
+                    <a id="button1" href="javascript:(0)" onclick="navControl()">☰</a>
+                    <div class="navbar1" id="hide">
+                        <a id="menuPic" href="/index.html"><img src="/images/favicon.ico" width="150px" /></a>
+                        <a href="/index.html">Home</a>
+                        <a class="active" href="#">Meet The Team</a>
+                        <a href="/newsletters/index.html">Newsletters</a>
+                        <a id="bottomSpacer" href="/contribute/index.html">Contribute</a>
+                    </div>
+                </div>
             </div>
             <div class="item2">
-                <h1>Meet The Team</h1>
-            </div>
-            <div class="item3">
-                <div>
-                    <div>
-                        <a href="/about/ian-mcclure.html">
-                            <img class="bio" src="/images/headshots/Ian%20McClure2.png" width="200px" />
-                        </a>
-                        <h5>Ian McClure</h5>
-                        <h6>Director/Producer</h6>
-                        <a class="button" href="/about/ian-mcclure.html">Read More About Ian</a>
-                    </div>
-                    <div>
-                        <a href="/about/koby-polaski.html">
-                            <img class="bio" src="/images/headshots/Koby%20Polaski.jpg" width="200px" />
-                        </a>
-                        <h5>Koby Polaski</h5>
-                        <h6>Creative Producer/Actor</h6>
-                        <a class="button" href="/about/koby-polaski.html">Read More About Koby</a>
-                    </div>
-                </div>
-                <br />
-                <div>
-                    <a href="/about/emily-vinkels.html">
-                        <img class="bio" src="/images/headshots/Emily%20Vinkels.jpg" width="200px" />
-                    </a>
-                    <h5>Emily Vinkels</h5>
-                    <h6>Assistant Producer</h6>
-                    <a class="button" href="/about/emily-vinkels.html">Read More About Emily</a>
-                </div>
-                <div>
-                    <a href="/about/tashna-nair.html">
-                        <img class="bio" src="/images/headshots/Tashna%20Nair.jpg" width="275px" />
-                    </a>
-                    <h5>Tashna Nair</h5>
-                    <h6>Line Producer</h6>
-                    <a class="button" href="/about/tashna-nair.html">Read More About Tashna</a>
-                </div>
+                <h1>This is the About.</h1>
             </div>
             <div class="footer">
                 <h4>
@@ -79,7 +43,6 @@
                     <img src="/images/logos/Linktree-colored.png" />
                 </a>
             </div>
-            <div class="item5"><p></p></div>
         </div>
     </body>
 </html>

@@ -1,24 +1,24 @@
 let visit = 0;
 
 function onPageLoaded() {
-    // Wri(te your javascript code here
-    console.log("page loaded");
 
+    // Confirm dialog box directing to Contribute/
     if (confirm("Help Us Reach Our Goal By Contributing Today!\n\nPlease Consider Donating!")) {
         window.open("/contribute/index.html");
-        console.log("confirmed!");
     }
 }
 
+// controls the navbar in the mobile viewports
 function navControl() {
-    //console.log("start actions");
-    var x = document.getElementById("hide");
-    //var y = document.getElementById("button1");
-    if (x.style.display === "block") {
-        x.style.display = "none";
+    var menuState = document.getElementById("hide");
+    var menu_icon = document.getElementById("button1");
+
+    // if expanded, shrink. Else, expand
+    if (menuState.style.display === "block") {
+        menuState.style.display = "none";
+        menu_icon.innerHTML = "☰";
     } else {
-        x.style.display = "block";
-        //y.innerHTML = "X";
+        menuState.style.display = "block";
+        menu_icon.innerHTML = "△";
     }
-    //console.log("actions completed");
 }
