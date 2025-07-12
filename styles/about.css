@@ -87,6 +87,7 @@ h4 > a {
 .title,
 h2 {
     color: #fcedc8;
+    text-shadow: 2px 2px black;
 }
 
 .title {
@@ -95,7 +96,7 @@ h2 {
 
 .faceCard > a > img {
     margin-top: 1.91em;
-    height: 438px;
+    height: 400px;
     width: 300px;
     border-radius: 5px;
     opacity: 0.8;
@@ -218,6 +219,10 @@ h2 {
     .column {
         width: 85%;
         display: block;
+    }
+
+    .faceCard > a > img {
+        opacity: 1;
     }
 }
 
