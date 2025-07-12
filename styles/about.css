@@ -97,10 +97,15 @@ h2 {
     height: 438px;
     width: 300px;
     border-radius: 5px;
+    opacity: 0.8;
+    transition: 0.3s;
 }
 
 .faceCard > a > img:hover {
     border: 2px solid #d27845;
+    transition: 0.3s;
+    border-radius: 50px;
+    opacity: 1.0;
 }
 
 /* Buttons */
