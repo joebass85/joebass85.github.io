@@ -146,4 +146,8 @@ h4 > a {
         display: none
     }
 
+    #hide {
+        display: block;
+    }
+
 }
