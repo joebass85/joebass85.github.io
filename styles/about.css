@@ -23,7 +23,8 @@
     padding-right: 1em;
 }
 
-.navbar1 > a:hover {
+.navbar1 > a:hover,
+.navbar1 > .active {
     color: #d27845;
 }
 
@@ -33,10 +34,6 @@
     margin-top: 1em;
     text-decoration: none;
     color: white;
-}
-
-.navbar1 > .active {
-    color: #d27845;
 }
 
 /* General <body> css */
@@ -92,6 +89,10 @@ h2 {
     color: #fcedc8;
 }
 
+.title {
+    font-size: 1.25em;
+}
+
 .faceCard > a > img {
     margin-top: 1.91em;
     height: 438px;
@@ -105,7 +106,7 @@ h2 {
     border: 2px solid #d27845;
     transition: 0.3s;
     border-radius: 50px;
-    opacity: 1.0;
+    opacity: 1;
 }
 
 /* Buttons */
@@ -215,7 +216,7 @@ h2 {
     }
 
     .column {
-        width: 100%;
+        width: 85%;
         display: block;
     }
 }
