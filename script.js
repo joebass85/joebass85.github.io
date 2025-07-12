@@ -10,13 +10,15 @@ function onPageLoaded() {
     }
 }
 
-function myFunction() {
-    console.log("start actions");
+function navControl() {
+    //console.log("start actions");
     var x = document.getElementById("hide");
+    //var y = document.getElementById("button1");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {
         x.style.display = "block";
+        //y.innerHTML = "X";
     }
-    console.log("actions completed");
+    //console.log("actions completed");
 }
