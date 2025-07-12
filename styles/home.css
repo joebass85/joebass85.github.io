@@ -83,6 +83,7 @@ h4 > a {
     zoom: 150%;
 }
 
+/* Phones and Small Devices */
 @media only screen and (max-width: 768px) {
     .item1 {
         grid-area: 1 / span 6;
@@ -148,6 +149,7 @@ h4 > a {
     }
 }
 
+/* Slightly bigger devices */
 @media only screen and (min-width: 769px) {
     #button1 {
         display: none;
@@ -158,18 +160,13 @@ h4 > a {
     }
 }
 
+/* Normal laptops and such */
 @media only screen and (min-width: 992px) {
-    body{
-        background-color: red;
-    }
 }
 
+/* Wide screens and bigger laptops */
 @media only screen and (min-width: 1200px) {
-    body {
-        background-color: blue;
-    }
-
     iframe {
-        overflow: hidden;
+        margin-bottom: 0.2em;
     }
 }

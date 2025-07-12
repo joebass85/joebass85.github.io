@@ -92,14 +92,14 @@ h2 {
     color: #fcedc8;
 }
 
-.faceCard > img {
-    margin-top: 2em;
+.faceCard > a > img {
+    margin-top: 1.91em;
     height: 438px;
     width: 300px;
 }
 
-.faceCard > img:hover {
-    border: 1px solid #fcedc8;
+.faceCard > a > img:hover {
+    border: 2px solid #d27845;
 }
 
 /* Buttons */
