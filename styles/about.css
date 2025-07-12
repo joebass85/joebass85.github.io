@@ -1,40 +1,42 @@
 /* Setting up the grid */
 .container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 0.75fr 6fr;
     padding: 0;
     margin: 0;
 }
 .container > div {
-    text-align: center;
     font-size: 1.25em;
 }
 
 /* Menu Bar */
 .item1 {
-    grid-row: 1 / span 12;
+    position: sticky;
+    grid-row: 1 / span 3;
     background-color: #212121;
 }
 
-#navbar1 {
+.navbar1 {
     list-style-type: none;
     text-align: left;
-    padding-left: 2em;
-    position: static;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
-li a:hover,
-.active {
+.navbar1 > a:hover {
     color: #d27845;
 }
 
-ul > li > a {
+.navbar1 > a {
+    position: sticky;
+    display: block;
+    margin-top: 1em;
     text-decoration: none;
     color: white;
 }
 
-ul > li {
-    margin-top: 1em;
+.navbar1 > .active {
+    color: #d27845;
 }
 
 /* General <body> css */
@@ -49,35 +51,55 @@ body {
     background-color: #150f0a;
 }
 
-/* Sets background for main content area */
-.item3 {
-    background-image: url(/images/About%20background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 h1,
 h4,
-h5,
-h6,
 h4 > a {
+    text-align: center;
     color: #fcedc8;
 }
 
-.footer > a,
-.item3 > a {
-    text-decoration: none;
-    padding-left: 10px;
+.item2,
+.footer {
+    text-align: center;
 }
 
-/* Images */
-.bio {
-    display: flex;
-    height: 352px;
+.item3 {
+    background-image: url("/images/About%20background.jpg");
+    background-size: cover;
 }
 
-.bio:hover {
-    border: 0.5px solid #fcedc8;
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 4px;
+    margin-left: 3em;
+    padding: 0 2px;
+}
+
+.shelf {
+    padding: 0;
+}
+
+.shelf::after,
+.item3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title,
+h2 {
+    color: #fcedc8;
+}
+
+.faceCard > img {
+    margin-top: 2em;
+    height: 438px;
+    width: 300px;
+}
+
+.faceCard > img:hover {
+    border: 1px solid #fcedc8;
 }
 
 /* Buttons */
@@ -91,9 +113,10 @@ h4 > a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px;
     transition-duration: 0.5s;
     cursor: pointer;
+    margin-bottom: 2em;
 }
 
 .button:hover {
@@ -103,10 +126,112 @@ h4 > a {
 }
 
 /* Footer & Social Links */
+.footer > a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
 .footer > a > img {
     width: 35px;
+    margin-bottom: 1.6em;
 }
 
 .footer > a > img:hover {
     zoom: 150%;
 }
+
+@media only screen and (max-width: 768px) {
+    .item1 {
+        grid-area: 1 / span 6;
+    }
+
+    .item2 {
+        grid-area: 2 / span 6;
+    }
+
+    .item3 {
+        grid-area: 3 / span 6;
+    }
+
+    .footer {
+        grid-area: 4 / span 6;
+    }
+
+    iframe {
+        margin: auto;
+        max-width: 90%;
+        height: 50%;
+        margin-bottom: 4em;
+    }
+
+    .footer > a > img:hover {
+        zoom: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    h4 {
+        font-size: 0.9em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    #menuPic {
+        display: none;
+    }
+
+    .navbar1 > a {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #bottomSpacer {
+        margin-bottom: 0.4em;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    #button1 {
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+        margin-left: 0.25em;
+    }
+
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #button1 {
+        display: none;
+    }
+
+    #hide {
+        display: block;
+    }
+}
+
+/*@media only screen and (min-width: 992px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: blue;
+    }
+}*/
