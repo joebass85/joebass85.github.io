@@ -155,6 +155,7 @@ h4 > a {
 
     .description {
         font-size: 1.2em;
+        overflow: clip;
         margin-left: 1em;
         margin-right: 1em;
     }
