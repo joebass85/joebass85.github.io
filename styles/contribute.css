@@ -149,12 +149,14 @@ h4 > a {
         font-size: 1.2em;
         padding-top: 1em;
         padding-bottom: 0;
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
     .description {
         font-size: 1.2em;
-        margin-left: 0.5em;
-        margin-right: 0.5em;
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
     .column > a > img {
@@ -163,10 +165,6 @@ h4 > a {
 
     #menuPic {
         display: none;
-    }
-
-    .column {
-        width: 1%;
     }
 
     .navbar1 > a {
