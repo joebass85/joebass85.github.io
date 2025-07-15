@@ -146,7 +146,7 @@ h4 > a {
     }
 
     .item5 > h2 {
-        font-size: 1.2em;
+        font-size: 1em;
         padding-top: 1em;
         padding-bottom: 0;
         margin-left: 1em;
@@ -154,8 +154,7 @@ h4 > a {
     }
 
     .description {
-        font-size: 1.2em;
-        overflow: clip;
+        font-size: 1em;
         margin-left: 1em;
         margin-right: 1em;
     }
