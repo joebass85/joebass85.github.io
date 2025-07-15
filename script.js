@@ -42,7 +42,7 @@ function checkCookie() {
 
 // controls the navbar in the mobile viewports
 function navControl() {
-    var menuState = document.body.getElementById("hide");
+    var menuState = document.getElementById("hide");
     var menu_icon = document.getElementById("button1");
 
     // if expanded, shrink. Else, expand
