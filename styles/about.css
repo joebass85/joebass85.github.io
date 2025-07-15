@@ -217,6 +217,12 @@ h2 {
     .faceCard > a > img {
         opacity: 1;
     }
+
+    .column > .faceCard > a > img:hover {
+        border: 2px solid #d27845;
+        transition: 0.3s;
+        border-radius: 5px;
+    }
 }
 
 @media only screen and (min-width: 769px) {

@@ -1,56 +1,70 @@
+/* Setting up the grid */
 .container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 0.75fr 6fr;
     padding: 0;
     margin: 0;
 }
 .container > div {
-    text-align: center;
     font-size: 1.25em;
 }
 
+/* Menu Bar */
 .item1 {
-    grid-row: 1 / span 12;
+    grid-row: 1 / span 6;
     background-color: #212121;
 }
 
-#navbar1 {
+.navbar1 {
+    height: 100%;
     list-style-type: none;
     text-align: left;
-    padding-left: 2em;
-    position: static;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
-li a:hover,
-.active {
+.navbar1 > a:hover,
+.navbar1 > .active {
     color: #d27845;
 }
 
-ul > li > a {
+.navbar1 > a {
+    display: block;
+    margin-top: 1em;
     text-decoration: none;
     color: white;
 }
 
-ul > li {
-    margin-top: 1em;
-}
-
+/* General <body> css */
 body {
     margin: 0;
     padding: 0;
 }
 
+/* Main Content Area */
 .item2,
 body {
     background-color: #150f0a;
 }
 
 h1,
+h2,
 h4,
 h4 > a {
+    text-align: center;
     color: #fcedc8;
 }
 
+.item2,
+.footer {
+    text-align: center;
+}
+
+#button1 {
+    display: none;
+}
+
+/* Footer & Social Links */
 .footer > a {
     text-decoration: none;
     padding-left: 10px;
@@ -58,8 +72,92 @@ h4 > a {
 
 .footer > a > img {
     width: 35px;
+    margin-bottom: 1.6em;
 }
 
 .footer > a > img:hover {
     zoom: 150%;
 }
+
+/* Phones and Small Devices */
+@media only screen and (max-width: 768px) {
+    .item1 {
+        grid-area: 1 / span 6;
+    }
+
+    .item2 {
+        grid-area: 2 / span 6;
+    }
+
+    .footer {
+        grid-area: 3 / span 6;
+    }
+
+    .footer > a > img:hover {
+        zoom: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    h4 {
+        font-size: 0.9em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    #menuPic {
+        display: none;
+    }
+
+    .navbar1 > a {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #bottomSpacer {
+        margin-bottom: 0.4em;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    #button1 {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 2em;
+        margin-left: 0.25em;
+    }
+}
+
+/* Slightly bigger devices */
+/*@media only screen and (min-width: 769px) {
+    #button1 {
+        display: none;
+    }
+
+    #hide {
+        display: block;
+    }
+}*/
+
+/* Normal laptops and such */
+@media only screen and (min-width: 992px) {
+}
+
+/* Wide screens and bigger laptops */
+/*@media only screen and (min-width: 1200px) {
+    iframe {
+        margin-bottom: 0.2em;
+    }
+}
+*/

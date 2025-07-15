@@ -2,7 +2,7 @@ function onPageLoaded() {
     // Confirm dialog box directing to Contribute
     if (confirm("Help Us Reach Our Goal By Contributing Today!\n\nPlease Consider Donating!")) {
         window.open("/contribute/index.html");
-        setCookie(username,1,1);
+        setCookie(username, 1, 1);
     }
 }
 
@@ -53,4 +53,22 @@ function navControl() {
         menuState.style.display = "block";
         menu_icon.innerHTML = "△";
     }
+}
+
+let mybutton = document.getElementById("myBtn");
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
