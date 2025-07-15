@@ -11,7 +11,7 @@
 
 /* Menu Bar */
 .item1 {
-    grid-row: 1 / span 5;
+    grid-row: 1 / span 4;
     background-color: #212121;
 }
 
@@ -22,7 +22,8 @@
     padding-right: 1em;
 }
 
-.navbar1 > a:hover {
+.navbar1 > a:hover,
+.navbar1 > .active {
     color: #d27845;
 }
 
@@ -31,10 +32,6 @@
     margin-top: 1em;
     text-decoration: none;
     color: white;
-}
-
-.navbar1 > .active {
-    color: #d27845;
 }
 
 /* General <body> css */
@@ -62,11 +59,9 @@ h4 > a {
 }
 
 .column > a > img {
-    width: 300px;
+    width: 250px;
     height: auto;
     margin-top: 2em;
-    margin-left: 4em;
-    margin-right: 2em;
 }
 
 .column {
@@ -77,7 +72,13 @@ h4 > a {
 .column > h4,
 .column > h4 > a {
     color: #150f0a;
-    display: inline;
+}
+
+.description {
+    margin-top: 2em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .item2,
@@ -101,7 +102,7 @@ h4 > a {
 }
 
 /* Phones and Small Devices */
-/*@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .item1 {
         grid-area: 1 / span 6;
     }
@@ -110,15 +111,21 @@ h4 > a {
         grid-area: 2 / span 6;
     }
 
-    .footer {
+    .item3 {
         grid-area: 3 / span 6;
     }
 
-    iframe {
-        margin: auto;
-        max-width: 90%;
-        height: 50%;
-        margin-bottom: 4em;
+    .item4 {
+        grid-area: 4 / span 6;
+    }
+
+    .item5 {
+        grid-area: 5 / span 6;
+        background-color: skyblue;
+    }
+
+    .footer {
+        grid-area: 6 / span 6;
     }
 
     .footer > a > img:hover {
@@ -135,6 +142,21 @@ h4 > a {
         font-size: 0.9em;
         margin-left: 1.5em;
         margin-right: 1.5em;
+    }
+
+    .item5 > h2 {
+        color: #150f0a;
+        font-size: 1.25em;
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
+
+    .description {
+        font-size: 1.25em;
+    }
+
+    .column > a > img {
+        margin-left: 20%;
     }
 
     #menuPic {
@@ -164,7 +186,7 @@ h4 > a {
         font-size: 2em;
         margin-left: 0.25em;
     }
-}*/
+}
 
 /* Slightly bigger devices */
 /*@media only screen and (min-width: 769px) {

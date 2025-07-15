@@ -1,16 +1,14 @@
-let visit = 0;
-
 function onPageLoaded() {
-    // Confirm dialog box directing to Contribute/
-    checkCookie();
+    // Confirm dialog box directing to Contribute
     if (confirm("Help Us Reach Our Goal By Contributing Today!\n\nPlease Consider Donating!")) {
         window.open("/contribute/index.html");
+        setCookie(username,1,1);
     }
 }
 
-function setCooke(cname, cvalue, exdays) {
+function setCookie(cname, cvalue, exdays) {
     const d = new Date();
-    d.settime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+    d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
     let expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
@@ -30,7 +28,6 @@ function getCookie(cname) {
     }
     return "";
 }
-
 function checkCookie() {
     let username = getCookie("username");
     if (username != "") {
