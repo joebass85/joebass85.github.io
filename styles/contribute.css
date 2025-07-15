@@ -92,6 +92,10 @@ h4 > a {
     display: none;
 }
 
+.description {
+    font-size: 1.25em;
+}
+
 /* Footer & Social Links */
 .footer > a {
     text-decoration: none;
