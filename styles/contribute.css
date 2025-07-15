@@ -63,6 +63,7 @@ h4 > a {
     width: 250px;
     height: auto;
     margin-top: 2em;
+    margin-left: 42.5%;
     background-color: white;
 }
 
@@ -78,7 +79,7 @@ h4 > a {
 }
 
 .description {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -136,6 +137,10 @@ h4 > a {
 #myBtn:hover {
     background-color: #344d30;
     color: #fcedc8;
+}
+
+.item4 {
+    margin-bottom: 1em;
 }
 
 /* Phones and Small Devices */
