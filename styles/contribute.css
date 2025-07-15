@@ -113,7 +113,7 @@ h4 > a {
 }
 
 /* Go To Top Button */
-#myButton {
+#myBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -129,7 +129,7 @@ h4 > a {
   border-radius: 4px;
 }
 
-#myButton:hover {
+#myBtn:hover {
   background-color: #555;
 }
 

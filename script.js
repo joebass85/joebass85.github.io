@@ -42,7 +42,7 @@ function checkCookie() {
 
 // controls the navbar in the mobile viewports
 function navControl() {
-    var menuState = document.getElementById("hide");
+    var menuState = document.body.getElementById("hide");
     var menu_icon = document.getElementById("button1");
 
     // if expanded, shrink. Else, expand
@@ -53,21 +53,4 @@ function navControl() {
         menuState.style.display = "block";
         menu_icon.innerHTML = "△";
     }
-}
-
-let mybutton = document.getElementsById("myButton");
-window.onscroll = function () {
-    scrollFunction();
-};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
 }
