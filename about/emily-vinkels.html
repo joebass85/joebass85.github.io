@@ -9,6 +9,7 @@
         <script src="/script.js"></script>
     </head>
     <body>
+        <button onclick="topFunction()" id="myBtn" title="Go To Top">Top</button>
         <div class="container">
             <div class="item1">
                 <a id="button1" href="javascript:(0)" onclick="navControl()">☰</a>
@@ -24,7 +25,7 @@
                 <h1>Emily Vinkels - Assistant Producer</h1>
             </div>
             <div class="item3">
-                <img id="emily" src="/images/headshots/Emily%20Vinkels.jpg" width="350px" height="420px"/>
+                <img id="emily" src="/images/headshots/Emily%20Vinkels.jpg" width="350px" height="420px" />
                 <h1>About Emily</h1>
                 <h4 id="bottomSpacer">
                     Emily Vinkels (24) is an assistant producer for <i>Hiking The Tide</i>. Emily has always dreamed of
@@ -55,5 +56,24 @@
                 </a>
             </div>
         </div>
+        <!-- Go To Top Button -->
+        <script>
+            let mybutton = document.getElementById("myBtn");
+            window.onscroll = function () {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     </body>
 </html>
