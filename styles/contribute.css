@@ -130,6 +130,7 @@ h4 > a {
     width: 100px;
     border-radius: 50%;
     opacity: 0.9;
+    transition: 0.3s;
 }
 
 #myBtn:hover {
