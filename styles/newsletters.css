@@ -157,6 +157,7 @@ h4 > a {
 /* Dropdown Button */
 .dropbtn {
     font-family: serif;
+    font-weight: bold;
     background-color: transparent;
     color: #fcedc8;
     padding: 0.25em;
