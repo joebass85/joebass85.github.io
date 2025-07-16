@@ -1,13 +1,12 @@
 // Confirm dialog box on Home load. Redirects to /contribute/index.html
-sessionStorage.setItem("isVisited", 0);
+sessionStorage.clear();
 function onPageLoaded() {
-    let val = sessionStorage.getItem("isVisited");
-    if (val == 0) {
+    if (sessionStorage.getItem("isVisited")) {
+    } else {
         if (confirm("Help Us Reach Our Goal By Contributing Today!\n\nPlease Consider Donating!")) {
             window.open("/contribute/index.html", "_self");
             sessionStorage.setItem("isVisited", 1);
         }
-    } else {
     }
 }
 
