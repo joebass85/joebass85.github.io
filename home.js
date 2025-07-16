@@ -4,8 +4,8 @@ function onPageLoaded() {
     } else {
         if (confirm("Help Us Reach Our Goal By Contributing Today!\n\nPlease Consider Donating!")) {
             window.open("/contribute/index.html", "_self");
-            sessionStorage.setItem("isVisited", 1);
         }
+        sessionStorage.setItem("isVisited", 1);
     }
 }
 
