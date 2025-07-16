@@ -4,7 +4,7 @@ function onPageLoaded() {
     let val = sessionStorage.getItem("isVisited");
     if (val == 0) {
         if (confirm("Help Us Reach Our Goal By Contributing Today!\n\nPlease Consider Donating!")) {
-            window.open("/contribute/index.html");
+            window.open("/contribute/index.html","_self");
             sessionStorage.setItem("isVisited",1);
             let val2 = sessionStorage.getItem("isVisited");
             console.log("isVisited:" + val2);
