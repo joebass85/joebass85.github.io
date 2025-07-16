@@ -6,7 +6,7 @@
         <link rel="icon" href="/images/favicon.ico" />
         <link rel="stylesheet" href="/styles/about.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="/script.js"></script>
+        <script src="/scripts/script.js"></script>
     </head>
     <body>
         <button onclick="topFunction()" id="myBtn" title="Go To Top">Top</button>
@@ -87,14 +87,12 @@
                 </a>
             </div>
         </div>
-
         <!-- Go To Top Button -->
         <script>
             let mybutton = document.getElementById("myBtn");
             window.onscroll = function () {
                 scrollFunction();
             };
-
             function scrollFunction() {
                 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                     mybutton.style.display = "block";

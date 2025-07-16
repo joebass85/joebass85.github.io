@@ -8,12 +8,10 @@ function onPageLoaded() {
         sessionStorage.setItem("isVisited", 1);
     }
 }
-
 // controls the navbar in the mobile viewports
 function navControl() {
     var menuState = document.getElementById("hide");
     var menu_icon = document.getElementById("button1");
-
     // if expanded, shrink. Else, expand
     if (menuState.style.display === "block") {
         menuState.style.display = "none";
