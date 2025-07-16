@@ -11,7 +11,6 @@
 
 /* Menu Bar */
 .item1 {
-    position: sticky;
     grid-row: 1 / span 3;
     background-color: #212121;
 }

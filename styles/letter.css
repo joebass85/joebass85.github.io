@@ -57,21 +57,11 @@ body {
     display: block;
 }
 
-.item4 > h1,
-.item4 > .dropdown {
-    width: auto;
-    display: inline-block;
-}
-
-.item4 > h1 {
-    text-align: left;
-    margin-left: 6.5em;
-}
-
 iframe {
-    margin-left: 6.5em;
-    height: 1100px;
-    width: 600px;
+    margin-top: 2em;
+    margin-left: 16em;
+    height: 900px;
+    width: 900px;
     margin-bottom: 2em;
     border: none;
 }
@@ -143,8 +133,8 @@ h4 > a {
     padding: 7px;
     border: 1px solid #fcedc8;
     border-radius: 5px;
-    margin-left: 8%;
-    width: 85%;
+    margin-left: 21%;
+    width: 57%;
     transition: 0.3s;
 }
 
