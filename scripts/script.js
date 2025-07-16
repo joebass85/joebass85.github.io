@@ -8,7 +8,7 @@ function navControl() {
         menu_icon.innerHTML = "☰";
     } else {
         menuState.style.display = "block";
-        menu_icon.innerHTML = "△";
+        menu_icon.innerHTML = "⨯";
     }
 }
 /* When the user clicks on the button,
