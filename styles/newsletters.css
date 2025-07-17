@@ -263,7 +263,7 @@ h4 > a {
     }
 
     iframe {
-        margin-left: 5%;
+        margin-left: 8%;
         height: 700px;
         width: 350px;
         margin-bottom: 2em;
@@ -272,7 +272,7 @@ h4 > a {
 
     .item4 > h1 {
         text-align: center;
-        margin-left: 1em;
+        margin-left: 0;
     }
 
     .dropdown {
@@ -281,12 +281,12 @@ h4 > a {
 
     .show {
         display: block;
-        width: 70%;
+        width: 75%;
         padding-bottom: 1em;
     }
 
     .dropbtn {
-        padding-bottom: 1em;
+        padding-bottom: 0;
     }
 }
 
