@@ -272,7 +272,7 @@ h4 > a {
 
     .item4 > h1 {
         text-align: center;
-        margin-left: 1.55em;
+        margin-left: 1em;
     }
 
     .dropdown {
@@ -281,7 +281,7 @@ h4 > a {
 
     .show {
         display: block;
-        width: 80%;
+        width: 70%;
         padding-bottom: 1em;
     }
 
