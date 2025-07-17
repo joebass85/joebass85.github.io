@@ -263,7 +263,7 @@ h4 > a {
     }
 
     iframe {
-        margin-left: 10%;
+        margin-left: 5%;
         height: 700px;
         width: 350px;
         margin-bottom: 2em;
@@ -281,7 +281,7 @@ h4 > a {
 
     .show {
         display: block;
-        width: 90%;
+        width: 80%;
         padding-bottom: 1em;
     }
 
