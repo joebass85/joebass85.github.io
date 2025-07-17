@@ -206,27 +206,27 @@ h4 > a {
 /* Phones and Small Devices */
 @media only screen and (max-width: 768px) {
     .item1 {
-        grid-area: 1 / span 6;
+        grid-area: 1 / span 7;
     }
 
     .item2 {
-        grid-area: 2 / span 6;
+        grid-area: 2 / span 7;
     }
 
     .item3 {
-        grid-area: 3 / span 6;
+        grid-area: 3 / span 7;
     }
 
     .item4 {
-        grid-area: 4 / span 6;
+        grid-area: 4 / span 7;
     }
 
     .item5 {
-        grid-area: 5 / span 6;
+        grid-area: 5 / span 7;
     }
 
     .footer {
-        grid-area: 6 / span 6;
+        grid-area: 6 / span 7;
     }
 
     .footer > a > img:hover {
