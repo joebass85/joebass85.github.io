@@ -263,7 +263,7 @@ h4 > a {
     }
 
     iframe {
-        margin-left: 12.25%;
+        margin-left: 10%;
         height: 700px;
         width: 350px;
         margin-bottom: 2em;
@@ -271,11 +271,12 @@ h4 > a {
     }
 
     .item4 > h1 {
+        text-align: center;
         margin-left: 1.55em;
     }
 
     .dropdown {
-        margin-left: 1.25em;
+        margin-left: 1em;
     }
 
     .show {
