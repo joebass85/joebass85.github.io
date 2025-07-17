@@ -232,31 +232,6 @@ h4 > a {
         font-size: 2em;
         margin-left: 0.25em;
     }
-
-    /* Go To Top Button */
-    #myBtn {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 99;
-        font-family: serif;
-        font-size: 1.1em;
-        border: none;
-        outline: none;
-        background-color: #d27845;
-        color: #fcedc8;
-        cursor: pointer;
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        opacity: 0.9;
-    }
-
-    #myBtn:hover {
-        background-color: #344d30;
-        color: #fcedc8;
-    }
 }
 
 /* Slightly bigger devices */
