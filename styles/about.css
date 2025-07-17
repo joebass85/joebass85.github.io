@@ -242,8 +242,8 @@ h2 {
         background-color: #d27845;
         color: #fcedc8;
         cursor: pointer;
-        height: 50px;
-        width: 50px;
+        height: 100px;
+        width: 100px;
         border-radius: 50%;
         opacity: 0.9;
         transition: 0.3s;
