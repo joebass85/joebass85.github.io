@@ -240,6 +240,7 @@ h4 > a {
         bottom: 20px;
         right: 30px;
         z-index: 99;
+        font-family: serif;
         font-size: 1.1em;
         border: none;
         outline: none;
